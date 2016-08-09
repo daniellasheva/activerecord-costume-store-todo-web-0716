@@ -1,8 +1,11 @@
 require_relative 'spec_helper'
+require 'pry'
+
 
 describe "HauntedHouse" do
 
   it "has a name" do
+
     asylum = HauntedHouse.create(
       name: "Asylum Haunted House"
     )
